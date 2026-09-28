@@ -1,7 +1,11 @@
+import ProfileCard from "./components/ProfileCard"
+
 export default function App() {
   return (
     <>
-      <h1>Welcome to TailwindCSS , GSAP and Three.js crash course </h1>
+      <main className="m-0">
+         <ProfileCard/>
+      </main>
     </>
   )
 }
