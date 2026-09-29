@@ -1,1 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import 'tailwindcss';
+
+@theme {
+    --color-brand-text: #00FFFF;
+    --color-brand-background: #0e0642;
+    --font-heading: 'Roboto' , sans-serif;
+
+}
